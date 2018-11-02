@@ -1,0 +1,86 @@
+@import "_variables";
+// 
+
+body {
+	background: #ccc;
+	font-family: Open Sans, sans-serif;
+	font-size: 16px;
+	line-height: 1.75;
+	color: $color;
+}
+
+.cmnselect {
+	display: block;
+	float: left;
+	padding: 0;
+}
+
+.cmnselect .label {
+    position: relative;
+    width: 100%;
+    padding: 0;
+    height: 35px;
+}
+
+.cmnselect .label:after, .cmnselect .label:before {
+    content: '';
+    position: absolute;
+    pointer-events: none;
+}
+
+.cmnselect .label:before {
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 33px;
+    background: url(../images/select-arrow.jpg) 0 -2px no-repeat #fff;
+    display: block;
+    z-index: 999;
+    border: 1px solid #bababa;
+    border-left: 0;
+}
+
+.cmnselect .label:after {
+    font: 11px Consolas,monospace;
+    color: #aaa;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: 4px;
+    top: 3px;
+    padding: 0 0 2px;
+    border-bottom: 1px solid #ddd;
+}
+
+.cmnselect select, .multiSel select {
+    outline: 0;
+    display: inline-block;
+    margin: 0;
+    cursor: pointer;
+    float: left;
+    line-height: 29px;
+}
+
+.cmnselect select {
+    background: #fff;
+    font-size: 100%;
+    padding: 6px 5px;
+    padding: 8px 5px\9;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    width: 215px;
+    height: 35px;
+    border: 1px solid #BABABA;
+}
+
+select>option {
+    background: #fff;
+    line-height: 16px!important;
+}
+
+#orgName option {
+    border-bottom: 1px solid #000!important;
+    padding-top: 10px!important;
+}

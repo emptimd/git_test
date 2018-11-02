@@ -1,0 +1,56 @@
+{
+  "name": "test-project",
+  "version": "0.0.0",
+  "description": "Wp Project",
+  "comment-by-me": "place here any comment",
+  "theme": {
+    "author": "Bogdan"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "babel-polyfill": "latest",
+    "babel-preset-env": "latest",
+    "browser-sync": "latest",
+    "browser-sync-close-hook": "^1.0.5",
+    "gulp-autoprefixer": "latest",
+    "gulp-babel": "latest",
+    "gulp-cache": "latest",
+    "gulp-clean-css": "latest",
+    "gulp-concat": "latest",
+    "gulp-extract-media-queries": "^1.1.0",
+    "gulp-if": "latest",
+    "gulp-imagemin": "latest",
+    "gulp-less": "latest",
+    "gulp-newer": "latest",
+    "gulp-notify": "latest",
+    "gulp-plumber": "latest",
+    "gulp-rename": "latest",
+    "gulp-rev": "latest",
+    "gulp-rollup": "latest",
+    "gulp-sass": "latest",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-strip-debug": "latest",
+    "gulp-uglify": "latest",
+    "gulp-util": "latest",
+    "gulp.spritesmith": "latest",
+    "node-notifier": "latest",
+    "pngsmith": "latest",
+    "rev-del": "latest",
+    "yargs": "latest"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "keywords": [
+    "test-wp"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "github:gulpjs/gulp#v4.0.0-alpha.3"
+  }
+}
